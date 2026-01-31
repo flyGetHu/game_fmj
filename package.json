@@ -9,7 +9,12 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["game", "rpg", "phaser", "伏魔记"],
+  "keywords": [
+    "game",
+    "rpg",
+    "phaser",
+    "伏魔记"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

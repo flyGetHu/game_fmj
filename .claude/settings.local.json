@@ -7,7 +7,9 @@
       "mcp__plugin_playwright_playwright__browser_navigate",
       "Bash(./.trellis/scripts/task.sh:*)",
       "Bash(npx tsc:*)",
-      "Bash(npm run typecheck:*)"
+      "Bash(npm run typecheck:*)",
+      "Bash(npx vite)",
+      "Bash(npm run dev:*)"
     ]
   }
 }
