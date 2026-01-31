@@ -1,0 +1,24 @@
+{
+  "name": "game_fmj",
+  "version": "1.0.0",
+  "description": "伏魔记 - 步步高经典RPG Web版",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["game", "rpg", "phaser", "伏魔记"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "phaser": "^3.90.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}

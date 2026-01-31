@@ -1,0 +1,32 @@
+{
+  "potion_hp_small": {
+    "id": "potion_hp_small",
+    "name": "小补药",
+    "type": "consumable",
+    "effect": {
+      "hp": 50
+    },
+    "price": 10,
+    "description": "恢复50点生命值"
+  },
+  "potion_hp_large": {
+    "id": "potion_hp_large",
+    "name": "大补药",
+    "type": "consumable",
+    "effect": {
+      "hp": 200
+    },
+    "price": 50,
+    "description": "恢复200点生命值"
+  },
+  "potion_mp_small": {
+    "id": "potion_mp_small",
+    "name": "小补魔药",
+    "type": "consumable",
+    "effect": {
+      "mp": 30
+    },
+    "price": 15,
+    "description": "恢复30点魔法值"
+  }
+}

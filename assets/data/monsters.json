@@ -1,0 +1,56 @@
+{
+  "slime": {
+    "id": "slime",
+    "name": "史莱姆",
+    "sprite": "monster_slime",
+    "stats": {
+      "hp": 30,
+      "mp": 0,
+      "maxHp": 30,
+      "maxMp": 0,
+      "attack": 8,
+      "defense": 2,
+      "agility": 5,
+      "level": 1,
+      "exp": 0
+    },
+    "expReward": 10,
+    "goldReward": 5
+  },
+  "goblin": {
+    "id": "goblin",
+    "name": "哥布林",
+    "sprite": "monster_goblin",
+    "stats": {
+      "hp": 50,
+      "mp": 10,
+      "maxHp": 50,
+      "maxMp": 10,
+      "attack": 12,
+      "defense": 5,
+      "agility": 8,
+      "level": 2,
+      "exp": 0
+    },
+    "expReward": 20,
+    "goldReward": 10
+  },
+  "wolf": {
+    "id": "wolf",
+    "name": "恶狼",
+    "sprite": "monster_wolf",
+    "stats": {
+      "hp": 80,
+      "mp": 0,
+      "maxHp": 80,
+      "maxMp": 0,
+      "attack": 18,
+      "defense": 6,
+      "agility": 12,
+      "level": 3,
+      "exp": 0
+    },
+    "expReward": 35,
+    "goldReward": 15
+  }
+}

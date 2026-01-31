@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.trellis/scripts/get-context.sh:*)",
+      "Bash(./.trellis/scripts/init-developer.sh:*)",
+      "mcp__zread__get_repo_structure",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "Bash(./.trellis/scripts/task.sh:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run typecheck:*)"
+    ]
+  }
+}

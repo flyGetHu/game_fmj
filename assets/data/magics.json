@@ -1,0 +1,26 @@
+{
+  "fireball": {
+    "id": "fireball",
+    "name": "火咒",
+    "type": "attack",
+    "mpCost": 5,
+    "power": 30,
+    "description": "召唤火焰攻击敌人"
+  },
+  "heal": {
+    "id": "heal",
+    "name": "治疗术",
+    "type": "heal",
+    "mpCost": 8,
+    "power": 50,
+    "description": "恢复生命值"
+  },
+  "thunder": {
+    "id": "thunder",
+    "name": "雷咒",
+    "type": "attack",
+    "mpCost": 12,
+    "power": 50,
+    "description": "召唤雷电攻击敌人"
+  }
+}

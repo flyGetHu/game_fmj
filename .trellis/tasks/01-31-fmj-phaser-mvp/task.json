@@ -1,0 +1,42 @@
+{
+  "id": "fmj-phaser-mvp",
+  "name": "fmj-phaser-mvp",
+  "title": "伏魔记Phaser Web MVP开发",
+  "description": "使用Phaser 3框架开发步步高伏魔记的Web版本MVP，复刻经典电子词典游戏的核心体验。",
+  "status": "in_progress",
+  "dev_type": "frontend",
+  "scope": "核心功能MVP",
+  "priority": "P1",
+  "creator": "claude-agent",
+  "assignee": "claude-agent",
+  "createdAt": "2026-01-31",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": null,
+  "worktree_path": null,
+  "current_phase": 1,
+  "next_action": [
+    {"phase": 2, "action": "check"},
+    {"phase": 3, "action": "finish"}
+  ],
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [
+    "项目初始化和配置",
+    "场景系统实现",
+    "角色系统实现",
+    "对话系统实现",
+    "战斗系统实现",
+    "数据结构定义"
+  ],
+  "relatedFiles": [
+    "src/main.ts",
+    "src/config.ts",
+    "src/scenes/*.ts",
+    "src/objects/*.ts",
+    "src/systems/*.ts",
+    "src/types/index.ts",
+    "src/utils/constants.ts"
+  ],
+  "notes": "Phase 1已完成：项目基础架构、场景系统、角色系统、对话系统、基础战斗系统已实现。游戏可运行，需要完善战斗系统的魔法和物品功能。"
+}
