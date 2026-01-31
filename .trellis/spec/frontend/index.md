@@ -6,7 +6,7 @@
 
 ## Overview
 
-This directory contains guidelines for frontend development. Fill in each file with your project's specific conventions.
+This directory contains guidelines for frontend development in this project.
 
 ---
 
@@ -14,6 +14,7 @@ This directory contains guidelines for frontend development. Fill in each file w
 
 | Guide | Description | Status |
 |-------|-------------|--------|
+| [Phaser 3 Game Development](./phaser-guidelines.md) | Phaser 3 game dev patterns, scene organization, best practices | ✅ Complete |
 | [Directory Structure](./directory-structure.md) | Module organization and file layout | To fill |
 | [Component Guidelines](./component-guidelines.md) | Component patterns, props, composition | To fill |
 | [Hook Guidelines](./hook-guidelines.md) | Custom hooks, data fetching patterns | To fill |
@@ -23,7 +24,7 @@ This directory contains guidelines for frontend development. Fill in each file w
 
 ---
 
-## How to Fill These Guidelines
+## How to Use These Guidelines
 
 For each guideline file:
 
@@ -33,6 +34,22 @@ For each guideline file:
 4. Add **common mistakes** your team has made
 
 The goal is to help AI assistants and new team members understand how YOUR project works.
+
+---
+
+## Project-Specific Notes
+
+### Game Development (Phaser 3)
+
+This project uses **Phaser 3** for game development. Key conventions:
+
+- Scene organization: Separate scenes for Boot, Title, Map, Battle
+- Game objects: Extend `Phaser.GameObjects.Container`
+- Events: Use `Phaser.Events.EventEmitter` (NOT Node.js `events`)
+- Physics: Arcade physics with proper body setup
+- Type safety: Strict TypeScript with custom game data types
+
+**See**: [Phaser 3 Game Development Guidelines](./phaser-guidelines.md) for detailed patterns and common mistakes.
 
 ---
 
